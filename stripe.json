@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "app213-dating-ai_starter",
+      "name": "App213 Dating AI Starter",
+      "description": "Get started with App213 Dating AI",
+      "mode": "subscription",
+      "prices": [
+        { "id": "starter_monthly", "amount": 1900, "currency": "usd", "interval": "month" },
+        { "id": "starter_annual", "amount": 18900, "currency": "usd", "interval": "year" }
+      ],
+      "features": ["Core AI features", "5 users", "Email support"]
+    },
+    {
+      "id": "app213-dating-ai_pro",
+      "name": "App213 Dating AI Pro",
+      "description": "Professional plan for App213 Dating AI",
+      "mode": "subscription",
+      "prices": [
+        { "id": "pro_monthly", "amount": 4900, "currency": "usd", "interval": "month" },
+        { "id": "pro_annual", "amount": 47900, "currency": "usd", "interval": "year" }
+      ],
+      "features": ["All Starter features", "Unlimited users", "Priority support", "Advanced AI", "Custom integrations"]
+    }
+  ],
+  "trial_days": 14,
+  "webhook_events": ["checkout.session.completed", "customer.subscription.updated", "customer.subscription.deleted"]
+}
